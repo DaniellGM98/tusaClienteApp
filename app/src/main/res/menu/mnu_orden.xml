@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnu_operador"
+        android:icon="@drawable/ic_operador"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/operador" />
+
+    <item
+        android:id="@+id/mnu_calificar"
+        android:icon="@drawable/ic_action_calificar"
+        android:orderInCategory="101"
+        android:showAsAction="ifRoom"
+        android:title="@string/calificar" />
+
+    <item
+        android:id="@+id/mnu_falso"
+        android:icon="@drawable/ic_action_fallo"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="@string/orden_falso" />
+
+    <item
+        android:id="@+id/mnu_share"
+        android:icon="@drawable/ic_person_add"
+        android:orderInCategory="103"
+        android:showAsAction="ifRoom"
+        android:title="Compartir" />
+<!--
+    <item
+        android:id="@+id/mnu_fotos"
+        android:icon="@drawable/ic_mnu_fotos"
+        android:orderInCategory="104"
+        android:showAsAction="ifRoom"
+        android:title="Evidencia Inicio" />
+-->
+<!--
+    <item
+        android:id="@+id/mnu_fotosf"
+        android:icon="@drawable/ic_mnu_fotos"
+        android:orderInCategory="105"
+        android:showAsAction="ifRoom"
+        android:title="Evidencia Final" />
+-->
+    <item
+        android:id="@+id/mnu_evidencias"
+        android:icon="@drawable/ic_baseline_camera_alt_24"
+        android:orderInCategory="106"
+        android:showAsAction="ifRoom"
+        android:title="Evidencia Fotográfica" />
+</menu>

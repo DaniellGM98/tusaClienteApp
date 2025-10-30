@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fb8c00</color>
+    <color name="colorPrimaryDark">#ef6c00</color>
+    <color name="colorAccent">#29b6f6</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="purple_700">#03A9F4</color>
+    <color name="red">#C3DD0000</color>
+    <color name="gray">#7f7f7f</color>
+    <color name="gray2">#B5B5B5</color>
+    <color name="blue">#0A51A1</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- background menu -->
+    <!--color name="list_background">#ffffff</color-->
+    <color name="list_background">#0A51A1</color>
+    <!-- background menu dipencet -->
+    <color name="list_background_pressed">#0A51A1</color>
+
+    <!--color name="header">#ff5722</color-->
+    <color name="header">#0A51A1</color>
+
+    <color name="gradient_start">#0A51A1</color>
+    <color name="gradient_light_start">#0A51A1</color>
+
+    <color name="success">#0A51A1</color>
+</resources>

@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Traslados Universales</string>
+
+    <string name="title_activity_login">Ingresar</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_user">Usuario</string>
+    <string name="prompt_email">Email para recuperación</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="prompt_forgot">¿No recuerda su contraseña?</string>
+    <string name="prompt_comments">Comentarios (Opcional)</string>
+    <string name="action_sign_in">Iniciar Sesión</string>
+    <string name="action_generate">Generar contraseña</string>
+    <string name="action_sign_in_short">Ingresar</string>
+    <string name="error_invalid_email">El email no es válido</string>
+    <string name="error_invalid_password">La contraseña es muy corta</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+    <string name="error_field_required">Este campo es obligatorio</string>
+    <string name="title_activity_main">TUSA Movil</string>
+    <string name="activity_fotos">Guardar Fotos</string>
+    <string name="activity_salud">Encuesta de Salud</string>
+
+    <string name="error_internet">No esta conectado a Internet</string>
+
+    <!-- Menú principal -->
+    <string name="title_pendientes">Traslados Activos</string>
+    <string name="title_historial">Historial</string>
+    <string name="title_mapa_general">Mapa General</string>
+    <string name="title_logout">Cerrar Sesión</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="orden_status">
+        <item>--</item>
+        <item>Asignada</item>
+        <item>En Traslado</item>
+        <item>En Destino</item>
+        <item>Finalizada</item>
+        <item>Cancelada</item>
+        <item>Falso</item>
+        <item>En Origen</item>
+        <item>Fallo</item>
+        <item>Imiciada</item>
+    </string-array>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Inicio</item>
+        <item>Traslados Activos</item>
+        <item>Historial</item>
+        <item>Modificar Contraseña</item>
+        <item>Cerrar Sesión</item>
+        <item>Estado de Salud</item>
+        <item>Mapa General</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons, keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_mnu_home</item>
+        <item>@drawable/ic_mnu_pendientes</item>
+        <item>@drawable/ic_mnu_historial</item>
+        <item>@drawable/ic_mnu_pass</item>
+        <item>@drawable/ic_exit</item>
+        <item>@drawable/ic_mnu_salud</item>
+        <item>@drawable/ic_mnu_mapageneral</item>
+    </array>
+
+    <array name="nav_drawer_icons3">
+        <item>@drawable/ic_mnu_home3</item>
+        <item>@drawable/ic_mnu_pendientes3</item>
+        <item>@drawable/ic_mnu_historial3</item>
+        <item>@drawable/ic_mnu_pass3</item>
+        <item>@drawable/ic_exit3</item>
+        <item>@drawable/ic_mnu_salud3</item>
+        <item>@drawable/ic_mnu_mapageneral3</item>
+    </array>
+
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="welcome">Bienvenido</string>
+
+    <string name="title_activity_password">Modificar Contraseña</string>
+    <string name="pwd_actual">Contraseña Actual</string>
+    <string name="pwd_new">Nueva Contraseña</string>
+    <string name="pwd_repeat">Repetir Contraseña</string>
+    <string name="save">Guardar</string>
+    <string name="error_pwd_actual">Contraseña Incorrecta</string>
+    <string name="error_pwd_diff">Las contrasñeas no coinciden</string>
+    <string name="orden">Orden de Traslado</string>
+    <string name="orden_accept">Aceptar Orden</string>
+    <string name="orden_init">Iniciar Orden</string>
+    <string name="orden_sitio">En Sitio</string>
+    <string name="orden_finish">Finalizar Orden</string>
+    <string name="orden_falso">Orden En Falso</string>
+    <string name="boton_panico">Alerta</string>
+    <string name="activity_mas">Ordenes Asignadas</string>
+    <string name="activity_pend">Traslados Activos</string>
+    <string name="activity_mapg">Mapa General</string>
+    <string name="activity_hist">Historial de Ordenes</string>
+
+    <string name="sin_orden">Sin Asignar</string>
+    <string name="title_activity_mapa">Ubicación</string>
+    <string name="search">Buscar</string>
+    <string name="search_vin">Buscar VIN..</string>
+    <string name="operador">Operador</string>
+    <string name="calificar">Calificar</string>
+    <string name="no_orden_result">No se encontraron ordenes</string>
+
+    <string-array name="hist_meses">
+        <item>Mes actual</item>
+        <item>Mes anterior</item>
+        <item>Dos meses atrás</item>
+    </string-array>
+
+    <string-array name="hist_status">
+        <item>Todas</item>
+        <item>Finalizadas</item>
+        <item>Falso</item>
+        <!--item>Calificadas</item-->
+    </string-array>
+
+    <string-array name="salud_sintomas">
+        <item>Fiebre</item>
+        <item>Tos</item>
+        <item>Moco</item>
+        <item>Congestion nasal</item>
+        <item>Estornudos</item>
+        <item>Dolor de garganta</item>
+        <item>Malestar de Garganta</item>
+        <item>Dificultad para respirar</item>
+        <item>Flema (amarilla/verdosa)</item>
+        <item>Vomito</item>
+        <item>Diarrea</item>
+        <item>Cansancio / Debilidad</item>
+        <item>Cuerpo Cortado</item>
+        <item>Dolor de Cabeza</item>
+    </string-array>
+    <string name="title_activity_mapa_general">MapaGeneralActivity</string>
+    <string name="share">Compartir</string>
+    <string name="cancel">Cancelar</string>
+</resources>

@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.ddsmedia.blink.blinkmensajeros.MainActivity">
+    <!--item
+        android:id="@+id/action_example"
+        android:title="@string/action_example"
+        app:showAsAction="withText|ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/ic_menu"
+        android:icon="@drawable/ic_ab_overflow_compat"
+        android:showAsAction="always"
+        android:title="">
+        <menu>
+
+            <item
+                android:id="@+id/rate_app"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/rate"/>
+
+            <item
+                android:id="@+id/more_app"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/more"/>
+        </menu>
+    </item-->
+</menu>
