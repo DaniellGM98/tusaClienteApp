@@ -313,17 +313,17 @@ public class SplashActivity extends Activity {
     private static String[] PERMISSIONS = {
             android.Manifest.permission.ACCESS_COARSE_LOCATION,
             android.Manifest.permission.ACCESS_FINE_LOCATION,
-            android.Manifest.permission.WRITE_EXTERNAL_STORAGE,
-            Manifest.permission.READ_EXTERNAL_STORAGE,
+            //android.Manifest.permission.WRITE_EXTERNAL_STORAGE,
+            //Manifest.permission.READ_EXTERNAL_STORAGE,
             Manifest.permission.CALL_PHONE,
             Manifest.permission.CAMERA
     };
     private static String[] PERMISSIONSAPI33 = {
             android.Manifest.permission.ACCESS_COARSE_LOCATION,
             android.Manifest.permission.ACCESS_FINE_LOCATION,
-            Manifest.permission.READ_MEDIA_AUDIO,
-            Manifest.permission.READ_MEDIA_VIDEO,
-            Manifest.permission.READ_MEDIA_IMAGES,
+            //Manifest.permission.READ_MEDIA_AUDIO,
+            //Manifest.permission.READ_MEDIA_VIDEO,
+            //Manifest.permission.READ_MEDIA_IMAGES,
             Manifest.permission.CALL_PHONE,
             Manifest.permission.CAMERA,
             Manifest.permission.POST_NOTIFICATIONS
@@ -337,13 +337,13 @@ public class SplashActivity extends Activity {
             if (ActivityCompat.checkSelfPermission(context, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
                 return false;
             }
-            if (ActivityCompat.checkSelfPermission(context, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
-                return false;
-            }
-            if (ActivityCompat.checkSelfPermission(context, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+            /*if (ActivityCompat.checkSelfPermission(context, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
                 return false;
             }
             if (ActivityCompat.checkSelfPermission(context, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+                return false;
+            }*/
+            if (ActivityCompat.checkSelfPermission(context, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                 return false;
             }
             if (ActivityCompat.checkSelfPermission(context, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
@@ -363,7 +363,7 @@ public class SplashActivity extends Activity {
             if (ActivityCompat.checkSelfPermission(context, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
                 return false;
             }
-            if (ActivityCompat.checkSelfPermission(context, Manifest.permission.READ_MEDIA_AUDIO) != PackageManager.PERMISSION_GRANTED) {
+            /*if (ActivityCompat.checkSelfPermission(context, Manifest.permission.READ_MEDIA_AUDIO) != PackageManager.PERMISSION_GRANTED) {
                 return false;
             }
             if (ActivityCompat.checkSelfPermission(context, Manifest.permission.READ_MEDIA_VIDEO) != PackageManager.PERMISSION_GRANTED) {
@@ -371,7 +371,7 @@ public class SplashActivity extends Activity {
             }
             if (ActivityCompat.checkSelfPermission(context, Manifest.permission.READ_MEDIA_IMAGES) != PackageManager.PERMISSION_GRANTED) {
                 return false;
-            }
+            }*/
             if (ActivityCompat.checkSelfPermission(context, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                 return false;
             }
